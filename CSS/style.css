@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: "Montserrat", serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+.desc {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(165,115,218,1) 56%, rgba(0,212,255,1) 100%);    left: 0;
+    right: 0;
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.desc h1 {
+    font-size: 60px;
+}
+.desc p {
+    font-size: 30px;
+}
+.abtme {
+    margin-top: 50px;   
+    display: flex;
+    flex-direction: row;
+}
+.abtme .text a {
+    text-decoration: none;
+}
+
+.abtme .a-img {
+    margin-left: 300px;
+}
+.abtme img {
+    border-radius: 10px;
+    border: 1.7px grey solid;
+    box-shadow: 13px 10px 62px 0px rgba(122,120,120,0.75);
+    -webkit-box-shadow: 13px 10px 62px 0px rgba(122,120,120,0.75);
+    -moz-box-shadow: 13px 10px 62px 0px rgba(122,120,120,0.75);
+}
+.p-abtme {
+    margin-left: 20px;
+}
+
+.hobs-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 20px;
+    gap: 35px;
+}
+.card {
+    border: 1.7px grey solid;
+    border-radius: 10px;
+    box-shadow: 13px 10px 62px 0px rgba(122,120,120,0.75);
+    -webkit-box-shadow: 13px 10px 62px 0px rgba(122,120,120,0.75);
+    -moz-box-shadow: 13px 10px 62px 0px rgba(122,120,120,0.75);
+    padding: 20px;
+    margin: 20px;
+}
+.card p {
+    padding: 10px;  
+}
